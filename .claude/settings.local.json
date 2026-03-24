@@ -52,7 +52,12 @@
       "Bash(grep -o 'href=\"\"\"\"[^\"\"\"\"]*\\\\.html' *.html)",
       "Bash(find c:UsersWebprDesktopEntreprisesWebPrimeMes_SitesE-Commerce_avis-market.fr -type f -name *.html -o -name *.htm -o -name *.txt -o -name *.md -o -name *.php -o -name *.json)",
       "Bash(grep -h \"<title>\" \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/acheter-avis.ca\"/*.html)",
-      "Bash(grep -h \"meta name=\"\"description\"\"\" \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/acheter-avis.ca\"/*.html)"
+      "Bash(grep -h \"meta name=\"\"description\"\"\" \"c:/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/acheter-avis.ca\"/*.html)",
+      "Read(//c/Users/Webpr/.claude/projects/c--Users-Webpr-Desktop-Entreprises-WebPrime-Mes-Sites-E-Commerce--acheter-avis-ca/390e8bc7-7954-4aa4-96a2-2892f3f1ccd6/tool-results/**)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/**)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/Webpr/Desktop/Entreprises/WebPrime/Mes_Sites/E-Commerce_/acheter-avis.ca/**)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Webpr\\Desktop\\Entreprises\\WebPrime\\Mes_Sites\\E-Commerce_\\avis-market.fr",
