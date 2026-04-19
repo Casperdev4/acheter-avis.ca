@@ -37,225 +37,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://acheter-avis.ca/"},
-            {"@type": "ListItem", "position": 2, "name": "Avis Google Hotel", "item": "https://acheter-avis.ca/achat-avis-google-hotel.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter-Avis.ca",
-        "url": "https://acheter-avis.ca",
-        "logo": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Achat Avis Google Hotel",
-                        "url": "https://acheter-avis.ca/achat-avis-google-hotel.html"
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.ca/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Avis Google Hotel",
+                        "item": "https://acheter-avis.ca/achat-avis-google-hotel.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "Les avis Google pour hôtel mentionnent-ils les chambres et le service ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolument, chaque avis est conçu sur mesure en mentionnant la propreté des chambres, la qualité de l'accueil, le petit-déjeuner, l'emplacement et le confort global de votre établissement."
-                }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Combien d'avis Google un hôtel doit-il avoir pour inspirer confiance ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Un hôtel a besoin d'un minimum de 50 à 100 avis pour paraître crédible. Les voyageurs comparent systématiquement plusieurs établissements et favorisent ceux qui cumulent le plus grand nombre d'avis positifs."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Les avis Google sont-ils aussi importants que Booking ou TripAdvisor ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Sans aucun doute. Google est devenu la première plateforme consultée avant toute réservation. Beaucoup de voyageurs vérifient la cote Google même lorsqu'ils réservent via d'autres plateformes."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Peut-on acheter des avis Google pour plusieurs hôtels ?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Tout à fait, nous traitons les commandes multi-établissements. Contactez-nous par WhatsApp après votre commande pour préciser les différents profils Google à cibler."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Forfaits Avis Positifs",
-        "itemListElement": [
-            {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avis Positifs + 5 offerts",
-                    "description": "Forfait de 25 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
+                "@type": "Organization",
+                "name": "Acheter-Avis.ca",
+                "url": "https://acheter-avis.ca",
+                "logo": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "achat avis google hotel",
+                                "url": "https://acheter-avis.ca/achat-avis-google-hotel.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google pour hôtel mentionnent-ils les chambres et le service ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolument, chaque avis est conçu sur mesure en mentionnant la propreté des chambres, la qualité de l'accueil, le petit-déjeuner, l'emplacement et le confort global de votre établissement."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'avis Google un hôtel doit-il avoir pour inspirer confiance ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Un hôtel a besoin d'un minimum de 50 à 100 avis pour paraître crédible. Les voyageurs comparent systématiquement plusieurs établissements et favorisent ceux qui cumulent le plus grand nombre d'avis positifs."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google sont-ils aussi importants que Booking ou TripAdvisor ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sans aucun doute. Google est devenu la première plateforme consultée avant toute réservation. Beaucoup de voyageurs vérifient la cote Google même lorsqu'ils réservent via d'autres plateformes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Peut-on acheter des avis Google pour plusieurs hôtels ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Tout à fait, nous traitons les commandes multi-établissements. Contactez-nous par WhatsApp après votre commande pour préciser les différents profils Google à cibler."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avis Positifs + 10 offerts",
-                    "description": "Forfait de 50 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Forfaits Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Forfait de 25 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Forfait de 50 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Forfait de 100 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
-            },
-            {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avis Positifs + 20 offerts",
-                    "description": "Forfait de 100 avis Google positifs avec comptes canadiens, textes personnalisés, garantie à vie et soutien à la clientèle 24/7.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "279",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                        }
-                    }
-                }
+                ]
             }
         ]
     }

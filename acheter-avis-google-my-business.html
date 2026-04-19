@@ -34,197 +34,230 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://acheter-avis.ca/"},
-            {"@type": "ListItem", "position": 2, "name": "Acheter Avis Google My Business", "item": "https://acheter-avis.ca/acheter-avis-google-my-business.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Acheter-Avis.ca",
-        "url": "https://acheter-avis.ca",
-        "logo": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Nos services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Accueil",
+                        "item": "https://acheter-avis.ca/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Acheter Avis Google My Business",
-                        "url": "https://acheter-avis.ca/acheter-avis-google-my-business.html"
+                        "item": "https://acheter-avis.ca/acheter-avis-google-my-business.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {"@type": "Question", "name": "Qu'est-ce que Google My Business ?", "acceptedAnswer": {"@type": "Answer", "text": "Google My Business (désormais Google Business Profile) est la plateforme sans frais de Google permettant aux entreprises d'administrer leur présence en ligne sur Google Search et Google Maps. Les évaluations des clients y occupent une place centrale pour la visibilité locale."}},
-            {"@type": "Question", "name": "Combien d'avis faut-il sur Google My Business ?", "acceptedAnswer": {"@type": "Answer", "text": "On recommande de disposer d'au moins 30 évaluations pour établir sa crédibilité. Plus vous accumulez d'avis récents et favorables, plus votre fiche Google My Business sera favorisée dans les résultats de proximité."}},
-            {"@type": "Question", "name": "Les avis apparaissent-ils directement sur ma fiche GMB ?", "acceptedAnswer": {"@type": "Answer", "text": "Effectivement, les évaluations sont diffusées directement sur votre fiche Google My Business et sont visibles sur Google Maps de même que dans les résultats de recherche Google."}},
-            {"@type": "Question", "name": "Les avis Google My Business influencent-ils le SEO local ?", "acceptedAnswer": {"@type": "Answer", "text": "Sans aucun doute. Google se base sur la quantité, la qualité et la fraîcheur des évaluations comme critères de positionnement pour le référencement local. Plus vous disposez d'avis favorables, meilleur sera le classement de votre fiche."}}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Nos Offres Avis Positifs",
-        "itemListElement": [
+                ]
+            },
             {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                    "@type": "Product",
-                    "name": "25 Avis Positifs + 5 offerts",
-                    "description": "Forfait de 25 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "99",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 12,
-                                    "maxValue": 30,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
+                "@type": "Organization",
+                "name": "Acheter-Avis.ca",
+                "url": "https://acheter-avis.ca",
+                "logo": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Nos services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "acheter avis google my business",
+                                "url": "https://acheter-avis.ca/acheter-avis-google-my-business.html"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                         }
-                    }
+                    ]
                 }
             },
             {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                    "@type": "Product",
-                    "name": "50 Avis Positifs + 10 offerts",
-                    "description": "Forfait de 50 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "169",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
-                                },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 25,
-                                    "maxValue": 60,
-                                    "unitCode": "DAY"
-                                }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
-                            }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Qu'est-ce que Google My Business ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Google My Business (désormais Google Business Profile) est la plateforme sans frais de Google permettant aux entreprises d'administrer leur présence en ligne sur Google Search et Google Maps. Les évaluations des clients y occupent une place centrale pour la visibilité locale."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Combien d'avis faut-il sur Google My Business ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "On recommande de disposer d'au moins 30 évaluations pour établir sa crédibilité. Plus vous accumulez d'avis récents et favorables, plus votre fiche Google My Business sera favorisée dans les résultats de proximité."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis apparaissent-ils directement sur ma fiche GMB ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Effectivement, les évaluations sont diffusées directement sur votre fiche Google My Business et sont visibles sur Google Maps de même que dans les résultats de recherche Google."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Les avis Google My Business influencent-ils le SEO local ?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Sans aucun doute. Google se base sur la quantité, la qualité et la fraîcheur des évaluations comme critères de positionnement pour le référencement local. Plus vous disposez d'avis favorables, meilleur sera le classement de votre fiche."
                         }
                     }
-                }
+                ]
             },
             {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                    "@type": "Product",
-                    "name": "100 Avis Positifs + 20 offerts",
-                    "description": "Forfait de 100 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
-                    "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
-                    "offers": {
-                        "@type": "Offer",
-                        "price": "279",
-                        "priceCurrency": "CAD",
-                        "availability": "https://schema.org/InStock",
-                        "shippingDetails": {
-                            "@type": "OfferShippingDetails",
-                            "shippingRate": {
-                                "@type": "MonetaryAmount",
-                                "value": "0",
-                                "currency": "CAD"
-                            },
-                            "deliveryTime": {
-                                "@type": "ShippingDeliveryTime",
-                                "handlingTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 1,
-                                    "maxValue": 2,
-                                    "unitCode": "DAY"
+                "@type": "ItemList",
+                "name": "Nos Offres Avis Positifs",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Avis Positifs + 5 offerts",
+                            "description": "Forfait de 25 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "99",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 12,
+                                            "maxValue": 30,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
                                 },
-                                "transitTime": {
-                                    "@type": "QuantitativeValue",
-                                    "minValue": 50,
-                                    "maxValue": 120,
-                                    "unitCode": "DAY"
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
                                 }
-                            },
-                            "shippingDestination": {
-                                "@type": "DefinedRegion",
-                                "addressCountry": "CA"
                             }
-                        },
-                        "hasMerchantReturnPolicy": {
-                            "@type": "MerchantReturnPolicy",
-                            "applicableCountry": "CA",
-                            "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Avis Positifs + 10 offerts",
+                            "description": "Forfait de 50 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "169",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 25,
+                                            "maxValue": 60,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Avis Positifs + 20 offerts",
+                            "description": "Forfait de 100 évaluations Google positives avec comptes canadiens, textes sur mesure, protection permanente et assistance en tout temps.",
+                            "image": "https://acheter-avis.ca/acheter-avis-google-pas-cher.png",
+                            "offers": {
+                                "@type": "Offer",
+                                "price": "279",
+                                "priceCurrency": "CAD",
+                                "availability": "https://schema.org/InStock",
+                                "shippingDetails": {
+                                    "@type": "OfferShippingDetails",
+                                    "shippingRate": {
+                                        "@type": "MonetaryAmount",
+                                        "value": "0",
+                                        "currency": "CAD"
+                                    },
+                                    "deliveryTime": {
+                                        "@type": "ShippingDeliveryTime",
+                                        "handlingTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 1,
+                                            "maxValue": 2,
+                                            "unitCode": "DAY"
+                                        },
+                                        "transitTime": {
+                                            "@type": "QuantitativeValue",
+                                            "minValue": 50,
+                                            "maxValue": 120,
+                                            "unitCode": "DAY"
+                                        }
+                                    },
+                                    "shippingDestination": {
+                                        "@type": "DefinedRegion",
+                                        "addressCountry": "CA"
+                                    }
+                                },
+                                "hasMerchantReturnPolicy": {
+                                    "@type": "MerchantReturnPolicy",
+                                    "applicableCountry": "CA",
+                                    "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                                }
+                            }
                         }
                     }
-                }
+                ]
             }
         ]
     }
